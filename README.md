@@ -30,6 +30,7 @@
   - Email: a.huang232@gmail.com
 
   ## Example
+  ![Sample](./images/image1.png)
 
   ## Links
   [GitHub](https://github.com/ahuang23/C19_TextEditor)
