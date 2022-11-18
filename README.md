@@ -10,7 +10,7 @@
   * [Links](#links)
  
   ## Description
-  This challenge was to build an API for a social network web application using Express.js for routing, a MongoDB database, and the Mongoose ODM. 
+  This challenge was to create an app to create notes or code snippets with or without an internet connection
 
   ## Installation
   N/A
