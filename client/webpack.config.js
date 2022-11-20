@@ -21,7 +21,7 @@ module.exports = () => {
         template:'./index.html',
         title: 'Text Editor'
       }),
-            new InjectManifest({
+      new InjectManifest({
         swSrc: './src-sw.js',
         swDest: 'src-sw.js'
       }),
