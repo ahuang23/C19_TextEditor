@@ -21,8 +21,14 @@ module.exports = () => {
         template:'./index.html',
         title: 'Text Editor'
       }),
+            new InjectManifest({
+        swSrc: './src-sw.js',
+        swDest: 'src-sw.js'
+      }),
       new WebpackPwaManifest({
         name: 'Text Editor',
+        fingerprints: false,
+        inject: true,
         short_name: 'Text',
         description: 'To Edit Text',
         background_color: '#ffffff',
@@ -36,10 +42,7 @@ module.exports = () => {
           },
         ],
       }),
-      new InjectManifest({
-        swSrc: './src-sw.js',
-        swDest: 'src-sw.js'
-      }),
+
     ],
 // TODO: Add CSS loaders and babel to webpack.
     module: {
